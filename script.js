@@ -40,6 +40,53 @@ const cientista5 = {
     areaPesquisa: "Áreas de Pesquisa: rádio, celular, internet"
 }
 
+const cientista6 = {
+    descoberta: "Foi uma cientista que teve papel fundamental em descobertas históricas. Ela encontrou centenas de fósseis e conseguiu identificar a chave da cadeia alimentar pré-histórica. Mary descobriu o primeiro fóssil de ictiossauro quando era criança. A carreira da cientista era promissora, mas teve percalços no caminho, principalmente por conta da comunidade científica dominada por homens anglicanos. Apesar disso, ela se tornou uma referência e teve contribuições de peso na paleontologia.",
+    idadeDescoberta: "Idade em que realizou a descoberta: 12 anos",
+    anoDescoberta: "Quando aconteceu: 1811",
+    pais: "País de nascimento: Reino Unido",
+    areaPesquisa: "Áreas de Pesquisa: paleontologia, fóssil, biologia"
+}
+
+const cientista7 = {
+    descoberta: "A cientista foi pioneira em pesquisas de biologia molecular e foi a responsável por ter descoberto a estrutura molecular do DNA. A pesquisadora foi quem conduziu o estudo que observou o formato helicoidal do DNA. Dessa forma, ela ganhou Prêmio Nobel de Fisiologia ou Medicina junto de outros dois bioquímicos em 1962. Apesar de sofrer com o machismo de seus colegas, Rosalind é o grande nome que descobriu a dupla hélice do DNA.",
+    idadeDescoberta: "Idade em que realizou a descoberta: 31 anos",
+    anoDescoberta: "Quando aconteceu: 1951",
+    pais: "País de nascimento: Reino Unido",
+    areaPesquisa: "Áreas de Pesquisa: genética, biologia, DNA"
+}
+
+const cientista8 = {
+    descoberta: "Jane já foi mundialmente considerada como a maior pesquisadora de chimpanzés. Seu trabalho com os primatas no Parque Nacional de Gombe Stream, na Tanzânia, era estudar o comportamento, as interações familiares e sociais de chimpanzés selvagens e como eles eram semelhantes aos humanos. Ela foi a primeira a testemunhar comportamentos de primatas semelhantes ao de humanos, incluindo o conflito armado. Além de seus estudos com os primatas, ela também luta para a proteção animal e é fundadora do Instituto Jane Goodall.",
+    idadeDescoberta: "Idade em que realizou a descoberta: 26 anos",
+    anoDescoberta: "Quando aconteceu: década de 60",
+    pais: "País de nascimento: Reino Unido",
+    areaPesquisa: "Áreas de Pesquisa: primatas, comportamento, biologia"
+}
+
+const cientista9 = {
+    descoberta: "Foi uma matemática que teve uma imensa importância na ciência. A cientista foi a primeira engenheira aeroespacial do que viria a se tornar a NASA (National Advisory Committee for Aeronautics). E não para por aí, ela foi a primeira mulher negra a ser engenheira da agência espacial — um grande exemplo de representatividade negra. A sua trajetória serviu como inspiração para o livro “Estrelas Além do Tempo”, que também virou filme. O prédio da NASA foi batizado com seu nome devido a grande contribuição científica de Mary Jackson para o desenvolvimento espacial.",
+    idadeDescoberta: "Idade em que realizou a descoberta: 32 anos",
+    anoDescoberta: "Quando aconteceu: 1953",
+    pais: "País de nascimento: Estados Unidos",
+    areaPesquisa: "Áreas de Pesquisa: engenharia, astronomia, matemática"
+}
+
+const cientista10 = {
+    descoberta: "A cientista teve um papel muito importante na agência espacial americana ao lado de Mary Jackson — tanto que ela também está presente na história de “Estrelas Além do tempo”. Katherine era uma cientista espacial que fez descobertas superimportantes para a aeronáutica, estudou aplicações da computação para a NASA e por décadas trabalhou para melhorar a precisão na navegação astronômica. Foi por suas contribuições em tantas atividades relevantes que ela foi eleita entre as 100 mulheres mais influentes e inspiradoras da BBC.",
+    idadeDescoberta: "Idade em que realizou a descoberta: 35 anos",
+    anoDescoberta: "Quando aconteceu: 1953",
+    pais: "País de nascimento: Estados Unidos",
+    areaPesquisa: "Áreas de Pesquisa: engenharia, astronomia, matemática"
+}
+const cientista11 = {
+    descoberta: "É engenheira e foi a primeira mulher negra a ir para o espaço! A ex-astronauta viajou para fora da Terra em 1992 a bordo da missão STS-47 e entrou para História. Depois da viagem espacial de 1992, Mae Jemison ainda estuda sobre o uso de tecnologias e continua produzindo conhecimentos. O nome de Mae é marcante não apenas por ser uma mulher mas também por ser uma mulher negra que ocupou esse espaço. Jemison cursou medicina na Cornell Medical School e, durante o treinamento, viajou para Cuba, conduzindo um estudo, e para a Tailândia, onde trabalhou em um campo de refugiados do Camboja. Também fez parte dos Flying Doctors, no leste da África.",
+    idadeDescoberta: "Idade em que realizou a descoberta: 31 anos",
+    anoDescoberta: "Quando aconteceu: 1987",
+    pais: "País de nascimento: Estados Unidos",
+    areaPesquisa: "Áreas de Pesquisa: astronomia, medicina, engenharia"
+}
+
 //adicionar propriedades dos objetos no HTML
 function adicionarObjeto (objeto, id) {
     for (i in objeto) {
@@ -55,6 +102,12 @@ adicionarObjeto (cientista2, "cientista-2")
 adicionarObjeto (cientista3, "cientista-3")
 adicionarObjeto (cientista4, "cientista-4")
 adicionarObjeto (cientista5, "cientista-5")
+adicionarObjeto (cientista6, "cientista-6")
+adicionarObjeto (cientista7, "cientista-7")
+adicionarObjeto (cientista8, "cientista-8")
+adicionarObjeto (cientista9, "cientista-9")
+adicionarObjeto (cientista10, "cientista-10")
+adicionarObjeto (cientista11, "cientista-11")
 
 
 // Procurar item no buscar e sumir os demais itens
@@ -76,3 +129,7 @@ function searchCientista() {
         alert("Pesquisa em branco")
     }
 }
+
+const nome = "Oi 34"
+
+console.log(nome.toLowerCase().trim());
