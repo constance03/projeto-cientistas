@@ -129,7 +129,3 @@ function searchCientista() {
         alert("Pesquisa em branco")
     }
 }
-
-const nome = "Oi 34"
-
-console.log(nome.toLowerCase().trim());
