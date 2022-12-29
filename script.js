@@ -111,9 +111,9 @@ adicionarObjeto (cientista11, "cientista-11")
 
 
 // Procurar item no buscar e sumir os demais itens
-function searchCientista() {
+function procurarCientista() {
     let input = document.getElementById('input').value
-    input=input.toLowerCase();
+    input = input.toLowerCase();
     let ul = document.getElementsByClassName('cientistas');
 
     for (i = 0; i < ul.length; i++) { 
