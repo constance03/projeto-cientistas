@@ -5,7 +5,7 @@ O Projeto é um site com informações de cientistas mulheres famosas e suas con
 ## **Índice**
 - <a href="#funcionalidades-do-projeto">Funcionalidades do projeto</a>
 - <a href="#layout">Layout</a>
-- <a href="#demonstracao">Demonstração</a>
+- <a href="#demonstração">Demonstração</a>
 - <a href="#como-rodar-esse-projeto">Como rodar esse projeto?</a>
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#pessoas-autoras">Pessoas autoras</a>
