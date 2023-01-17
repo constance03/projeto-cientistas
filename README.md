@@ -2,25 +2,25 @@
 
 O Projeto é um site com informações de cientistas mulheres famosas e suas contribuições para a ciência moderna. O projeto possui uma página principal com uma barra de pesquisa e foi desenvolvido como parte do bootcamp Labenu.
 
-## 🔍 **Índice**
-- <a href="#funcionalidades">Funcionalidades do projeto</a>
+## **Índice**
+- <a href="#funcionalidades-do-projeto">Funcionalidades do projeto</a>
 - <a href="#layout">Layout</a>
 - <a href="#demonstracao">Demonstração</a>
-- <a href="#rodar">Como rodar esse projeto?</a>
-- <a href="#tecnologias">Tecnologias utilizadas</a>
-- <a href="#autoras">Pessoas autoras</a>
+- <a href="#como-rodar-esse-projeto">Como rodar esse projeto?</a>
+- <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
+- <a href="#pessoas-autoras">Pessoas autoras</a>
 
-## 💻 **Funcionalidades do projeto**
+## **Funcionalidades do projeto**
 - [x] Lista com informações das cientistas
 - [x] Barra de pesquisa para encontrar palavras-chaves
 
-## 🖼 **Layout**
+## **Layout**
 ![tela-inicial](./media/homepage.png)
 
-## 🎯 **Demonstração**
+## **Demonstração**
 [Link demonstração](https://constance03.github.io/projeto-cientistas/)
 
-## 🕹 **Como rodar esse projeto?**
+## **Como rodar esse projeto?**
 
 ```
 # Clone esse repositório
@@ -33,14 +33,14 @@ $ cd projeto-cientistas
 
 ```
 
-## ⚙️ **Tecnologias utilizadas**
+## **Tecnologias utilizadas**
 
 1. HTML
 2. CSS
 3. JavaScript
 
 
-## 👩🏻‍💻 **Pessoas autoras**
+## **Pessoas autoras**
 
 <img style="width:200px" src="./media/photo-readme.png" alt="imagem de desenvolvedora">
 
